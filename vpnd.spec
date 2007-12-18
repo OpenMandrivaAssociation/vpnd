@@ -1,6 +1,6 @@
 %define name vpnd
-%define version 1.1.0
-%define release %mkrel 6
+%define version 1.1.2
+%define release %mkrel 1
 
 Name: %{name}
 Summary: The virtual private network daemon vpnd
@@ -15,7 +15,7 @@ License: GPL/LGPL
 The virtual private network daemon vpnd is a daemon which connects two
 networks on network level either via TCP/IP or a (virtual) leased line attached
 to a serial interface. All data transfered between the two networks are
-encrypted using the unpatented free Blowfish encryption algorithm. 
+encrypted using the unpatented free Blowfish encryption algorithm.
 
 %prep
 rm -rf $RPM_BUILD_ROOT
@@ -36,7 +36,7 @@ install -m 644 vpnd.chat $RPM_BUILD_ROOT%{_sysconfdir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files 
+%files
 %defattr(644,root,root,755)
 %doc VERSIONS SPEED.TXT README dynamic-ip-client samples
 %defattr(-,root,root)
