@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source: %name-%version.tar.bz2
 Group: Networking/Other
-URL: http://sunsite.auc.dk/vpnd/
+URL: https://sunsite.auc.dk/vpnd/
 License: GPL/LGPL
 
 %description
