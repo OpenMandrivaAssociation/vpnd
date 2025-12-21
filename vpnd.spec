@@ -11,6 +11,11 @@ Group: Networking/Other
 URL: https://sunsite.auc.dk/vpnd/
 License: GPL/LGPL
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 The virtual private network daemon vpnd is a daemon which connects two
 networks on network level either via TCP/IP or a (virtual) leased line attached
