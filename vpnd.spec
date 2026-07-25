@@ -1,6 +1,6 @@
 %define name vpnd
 %define version 1.1.2
-%define release %mkrel 1
+%define release 2
 
 Name: %{name}
 Summary: The virtual private network daemon vpnd
